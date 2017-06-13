@@ -1,0 +1,20 @@
+//
+//  BaseAppPrefixHeader.pch
+//  BaseAPP
+//
+//  Created by Sun on 2017/6/13.
+//  Copyright © 2017年 刘一峰. All rights reserved.
+//
+
+#ifndef BaseAppPrefixHeader_pch
+#define BaseAppPrefixHeader_pch
+
+#import "APPHeader.h"
+#import "IMPHeader.h"
+#import "KEYHeader.h"
+#import "URLHeader.h"
+#import "BaseAppFCHeader.h"
+
+
+
+#endif /* BaseAppPrefixHeader_pch */
