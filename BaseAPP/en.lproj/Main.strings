@@ -1,0 +1,7 @@
+
+//使用xcode的ibtool在终端中执行: MacBook-Pro:Base.lproj lyf$ ibtool Main.storyboard --generate-strings-file ./Main.string
+//自动生成最新的string文件。
+//ObjectID:可在storyboard中选中该控件后查看
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OSZ-p8-Hvb"; */
+"OSZ-p8-Hvb.text" = "test";

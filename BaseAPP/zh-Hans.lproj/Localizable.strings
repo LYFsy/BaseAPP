@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  BaseAPP
+
+  Created by 刘一峰 on 2017/6/5.
+  Copyright © 2017年 刘一峰. All rights reserved.
+*/
+"首页"="Home";
+"好友"="Friends";
+"我"="Me";
+
+"取消" = "cancel";
+"切换" = "change";
+
+"search_logo" = "google_logo";

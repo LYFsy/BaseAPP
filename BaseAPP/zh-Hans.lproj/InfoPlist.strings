@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  BaseAPP
+
+  Created by 刘一峰 on 2017/6/5.
+  Copyright © 2017年 刘一峰. All rights reserved.
+*/
+"CFBundleDisplayName" = "中文名字";
