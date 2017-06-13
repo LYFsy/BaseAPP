@@ -32,6 +32,8 @@
 		8BC0C3A61EEFE33900876EE2 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0C3A51EEFE33900876EE2 /* UserNotifications.framework */; };
 		8BC0C3A81EEFE34100876EE2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0C3A71EEFE34100876EE2 /* libresolv.tbd */; };
 		8BC0C3AD1EEFE3B800876EE2 /* AppDelegate+Jpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C3AC1EEFE3B800876EE2 /* AppDelegate+Jpush.m */; };
+		8BC0C3B91EEFF0AF00876EE2 /* RegularTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C3B81EEFF0AF00876EE2 /* RegularTool.m */; };
+		8BC0C3BE1EEFF1E700876EE2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C3BD1EEFF1E700876EE2 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,10 @@
 		8BC0C3B21EEFE4FF00876EE2 /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
 		8BC0C3B31EEFE4FF00876EE2 /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
 		8BC0C3B41EEFE5A000876EE2 /* BaseAppFCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAppFCHeader.h; sourceTree = "<group>"; };
+		8BC0C3B71EEFF0AF00876EE2 /* RegularTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularTool.h; sourceTree = "<group>"; };
+		8BC0C3B81EEFF0AF00876EE2 /* RegularTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularTool.m; sourceTree = "<group>"; };
+		8BC0C3BC1EEFF1E700876EE2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8BC0C3BD1EEFF1E700876EE2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 		1CBD80D81EEFDA3C00EE2FD5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8BC0C3B51EEFEFD800876EE2 /* BaseTool */,
 				1CBD80DC1EEFDA9000EE2FD5 /* GuideView */,
 			);
 			name = Base;
@@ -163,13 +170,6 @@
 				1CC78DFE1EE555DB0010C833 /* AppDelegate.m */,
 			);
 			name = Appdelegete;
-			sourceTree = "<group>";
-		};
-		1CBD80DB1EEFDA6100EE2FD5 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Category;
 			sourceTree = "<group>";
 		};
 		1CBD80DC1EEFDA9000EE2FD5 /* GuideView */ = {
@@ -208,8 +208,8 @@
 				8BC0C3A91EEFE34B00876EE2 /* BaseAPP.entitlements */,
 				1CBD80DA1EEFDA5100EE2FD5 /* Appdelegete */,
 				8BC0C3AA1EEFE3B800876EE2 /* AppDelegateCategory */,
+				8BC0C3BA1EEFF1E700876EE2 /* Category */,
 				1CBD80D81EEFDA3C00EE2FD5 /* Base */,
-				1CBD80DB1EEFDA6100EE2FD5 /* Category */,
 				1CBD80D91EEFDA4300EE2FD5 /* Class */,
 				8BC0C3AE1EEFE3FE00876EE2 /* Macros(宏) */,
 				8BC0C38B1EEFE2AF00876EE2 /* TheThird */,
@@ -310,6 +310,40 @@
 			name = "Macros(宏)";
 			path = "BaseAPP/Macros(宏)";
 			sourceTree = SOURCE_ROOT;
+		};
+		8BC0C3B51EEFEFD800876EE2 /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0C3B61EEFF09300876EE2 /* regularEXTool(正则) */,
+			);
+			path = BaseTool;
+			sourceTree = "<group>";
+		};
+		8BC0C3B61EEFF09300876EE2 /* regularEXTool(正则) */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0C3B71EEFF0AF00876EE2 /* RegularTool.h */,
+				8BC0C3B81EEFF0AF00876EE2 /* RegularTool.m */,
+			);
+			path = "regularEXTool(正则)";
+			sourceTree = "<group>";
+		};
+		8BC0C3BA1EEFF1E700876EE2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0C3BB1EEFF1E700876EE2 /* UIViewExtension */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8BC0C3BB1EEFF1E700876EE2 /* UIViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0C3BC1EEFF1E700876EE2 /* UIView+Extension.h */,
+				8BC0C3BD1EEFF1E700876EE2 /* UIView+Extension.m */,
+			);
+			path = UIViewExtension;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -455,8 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC0C3B91EEFF0AF00876EE2 /* RegularTool.m in Sources */,
 				1CC78E021EE555DB0010C833 /* ViewController.m in Sources */,
 				1CC78DFF1EE555DB0010C833 /* AppDelegate.m in Sources */,
+				8BC0C3BE1EEFF1E700876EE2 /* UIView+Extension.m in Sources */,
 				1CC78DFC1EE555DB0010C833 /* main.m in Sources */,
 				1CBD80DF1EEFDAD600EE2FD5 /* LaunchIntroductionView.m in Sources */,
 				8BC0C3AD1EEFE3B800876EE2 /* AppDelegate+Jpush.m in Sources */,

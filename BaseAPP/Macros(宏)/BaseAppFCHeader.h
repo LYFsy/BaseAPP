@@ -126,5 +126,14 @@
 #define kRandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1]
 
 
+// 6
+#define offHeigt [[UIScreen mainScreen]bounds].size.height / 667
+#define offWidth [[UIScreen mainScreen]bounds].size.width / 375
+
+//屏幕的宽度
+#define XKScreenW [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define XKScreenH [UIScreen mainScreen].bounds.size.height
+
 
 #endif /* BaseAppFCHeader_h */

@@ -10,10 +10,17 @@
 #define APPHeader_h
 
 #pragma mark - AppDelegate
+
+
 #import "AppDelegate.h"
 #import "AppDelegate+Jpush.h"
 
 #pragma mark - Categories
+
+
+#pragma mark - BaseTool
+
+#import "RegularTool.h"
 
 
 #endif 
