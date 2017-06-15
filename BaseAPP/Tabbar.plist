@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>MessageVC</string>
+		<key>name</key>
+		<string>消息</string>
+		<key>img_unSelect</key>
+		<string>tabbar_mainframe</string>
+		<key>img_select</key>
+		<string>tabbar_mainframeHL</string>
+        <key>title_select</key>
+        <string>0x19AA0B</string>
+        <key>title_unSelect</key>
+        <string>0x7E7F7E</string>
+	</dict>
+    <dict>
+        <key>class</key>
+        <string>ContactsVC</string>
+        <key>name</key>
+        <string>通讯录</string>
+        <key>img_unSelect</key>
+        <string>tabbar_contacts</string>
+        <key>img_select</key>
+        <string>tabbar_contactsHL</string>
+        <key>title_select</key>
+        <string>0x19AA0B</string>
+        <key>title_unSelect</key>
+        <string>0x7E7F7E</string>
+    </dict>
+    <dict>
+        <key>class</key>
+        <string>DiscoverVC</string>
+        <key>name</key>
+        <string>发现</string>
+        <key>img_unSelect</key>
+        <string>tabbar_discover</string>
+        <key>img_select</key>
+        <string>tabbar_discoverHL</string>
+        <key>title_select</key>
+        <string>0x19AA0B</string>
+        <key>title_unSelect</key>
+        <string>0x7E7F7E</string>
+    </dict>
+	<dict>
+		<key>class</key>
+		<string>MineVC</string>
+		<key>name</key>
+		<string>我</string>
+		<key>img_unSelect</key>
+		<string>tabbar_me</string>
+		<key>img_select</key>
+		<string>tabbar_meHL</string>
+        <key>title_select</key>
+        <string>0x19AA0B</string>
+        <key>title_unSelect</key>
+        <string>0x7E7F7E</string>
+	</dict>
+
+
+</array>
+</plist>

@@ -14,7 +14,7 @@
 
 #import "BaseModel.h"
 #import "NetworkManager.h"
-#import "YYModel.h"
+//#import "YYModel.h"
 @implementation BaseModel
 
 - (NSString *)api {
@@ -29,7 +29,8 @@
 
 //模型转化为字典，作为post参数
 - (NSMutableDictionary *)postParms {
-    return [self yy_modelToJSONObject];
+//    return [self yy_modelToJSONObject];
+    return nil;
 }
 - (void)requestDatasSuccessCallback:(SuccessCallback)successCallback FailureCallback:(FailureCallback)failureCallback {
     NSString *api = [[NSString stringWithFormat:@"%@.app?actionMethod=",[self api]] stringByAppendingString:[self modelApi]];
